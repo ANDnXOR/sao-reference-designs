@@ -13,6 +13,7 @@ This is where we will publically post our reference designs for SAOs. Some may j
 Simple I2C EEPROM SAO based on the AT24C32. All address pins are pulled to GND. Badges that detect the AT24C32 on the I2C bus should query for bytes at known addresses then perform actions.
 
 AND!XOR has adopted the following format for data stored in the EEPROM, we hope that others from #badgelife do too.
+
 | 0			| 1			| 2 			| 3...n		|
 |:-:		|:-:		|:-:			|:-:		|
 | DC Year	| Maker ID	| SAO Type ID 	| Data 		|
