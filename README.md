@@ -14,7 +14,7 @@ Simple I2C EEPROM SAO based on the AT24C32. All address pins are pulled to GND. 
 
 AND!XOR has adopted the following format for data stored in the EEPROM, we hope that others from #badgelife do too.
 | 0			| 1			| 2 			| 3...n		|
-| :-:		| :-:		| :-:			| :-:		|
+|:-:		|:-:		|:-:			|:-:		|
 | DC Year	| Maker ID	| SAO Type ID 	| Data 		|
 
 * DC Year: Use 0x1B for DC27
